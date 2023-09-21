@@ -1,0 +1,5 @@
+string = input("Enter the string : ")
+character = input("Enter the character that you want to count : ")
+counter = string.count(character)
+print(str(counter))
+#only string can be concatenated with string ->  used str(counter)
